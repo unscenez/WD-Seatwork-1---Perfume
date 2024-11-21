@@ -17,7 +17,7 @@
 </div>
 
 <br />
-(https://wakatime.com/badge/user/356a8d76-eeaa-45cc-a202-678b955be1eb/project/7ffd4003-e62c-4af4-b577-08278a553932.svg)](https://wakatime.com/badge/user/356a8d76-eeaa-45cc-a202-678b955be1eb/project/7ffd4003-e62c-4af4-b577-08278a553932)
+https://wakatime.com/badge/user/356a8d76-eeaa-45cc-a202-678b955be1eb/project/7ffd4003-e62c-4af4-b577-08278a553932.svg)](https://wakatime.com/badge/user/356a8d76-eeaa-45cc-a202-678b955be1eb/project/7ffd4003-e62c-4af4-b577-08278a553932
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->

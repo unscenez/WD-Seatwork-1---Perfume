@@ -16,8 +16,9 @@
     <nav class="bg-slate-900 p-2">
       <div class="max-w-7xl mx-auto flex justify-between items-center">
         <!-- Logo -->
-        <div class="text-white text-2xl font-semibold">
+        <div class="text-white text-3xl font-semibold font-['Holen_Vintage']">
           <a href="#">Allurea</a>
+          <!-- <img src="/assets/img/ALlurea.png"> -->
         </div>
 
         <!-- Desktop Navigation -->
@@ -35,13 +36,18 @@
             placeholder="Search..."
             class="px-4 py-2 rounded-2xl border-2 border-slate-900 focus:outline-none focus:ring-2 focus:ring-slate-900"
           />
-          <button class="bg-slate-900 text-white text-2xl px-4 py-2 rounded-lg">
+          <button
+            class="bg-slate-900 text-white text-2xl px-4 py-2 rounded-lg"
+            id="cart-button"
+          >
             🛒
           </button>
 
+          <!-- Account Dropdown -->
           <div class="flex flex-col">
             <button
               class="text-white flex items-center gap-2 hover:text-yellow-200"
+              id="account-button"
             >
               <span>Account</span>
               <svg
@@ -70,13 +76,11 @@
             </div>
           </div>
         </div>
-
-        <!-- Account Dropdown -->
       </div>
     </nav>
 
-    <!--HTML CODE-->
-    <div class="w-full relative">
+    <!-- HTML CODE for Slider (Swiper) -->
+    <!-- <div class="w-full relative">
       <div class="swiper fraction-slide-carousel swiper-container relative">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -84,8 +88,8 @@
               class="bg-indigo-50 rounded-2xl h-96 flex justify-center items-center"
             >
               <span class="text-3xl font-semibold text-indigo-600"
-                >Slide 1
-              </span>
+                >Slide 1</span
+              >
             </div>
           </div>
           <div class="swiper-slide">
@@ -93,8 +97,8 @@
               class="bg-indigo-50 rounded-2xl h-96 flex justify-center items-center"
             >
               <span class="text-3xl font-semibold text-indigo-600"
-                >Slide 2
-              </span>
+                >Slide 2</span
+              >
             </div>
           </div>
           <div class="swiper-slide">
@@ -102,8 +106,8 @@
               class="bg-indigo-50 rounded-2xl h-96 flex justify-center items-center"
             >
               <span class="text-3xl font-semibold text-indigo-600"
-                >Slide 3
-              </span>
+                >Slide 3</span
+              >
             </div>
           </div>
         </div>
@@ -155,16 +159,22 @@
         </div>
         <div class="swiper-pagination"></div>
       </div>
-    </div>
+    </div> -->
 
     <script>
-      // Dropdown menu toggle
-      const accountButton = document.querySelector("button");
+      // Dropdown menu toggle for Account
+      const accountButton = document.querySelector("#account-button");
       const dropdownMenu = document.querySelector(".dropdown-menu");
 
       accountButton.addEventListener("click", () => {
         dropdownMenu.classList.toggle("hidden");
       });
+
+      // Shopping Cart button (for future use if needed)
+      const cartButton = document.querySelector("#cart-button");
+      // cartButton.addEventListener("click", () => {
+      //   // Handle shopping cart actions here
+      // });
     </script>
   </body>
 </html>
